@@ -50,6 +50,14 @@ body, html {
     margin: 50px auto;
 }
 
+.card-img-top {
+    margin-bottom: 15px;
+}
+
+.card-title {
+    color: #008073;
+}
+
 .footer {
     text-align: center;
     padding: 50px;
