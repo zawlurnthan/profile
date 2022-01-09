@@ -19,11 +19,13 @@
     <script src="https://kit.fontawesome.com/d2927cfe58.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+<!--    Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Web Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -52,7 +54,7 @@
     </nav>
 
 
-    <!-- Carousel -->
+<!--     Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
         <!-- Indicators/dots -->
@@ -65,13 +67,13 @@
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="src/img/cover.jpg" alt="island" class="d-block" style="width:100%">
+                <img src="src/img/cover.jpg" alt="" class="d-block" style="width:100%">
             </div>
             <div class="carousel-item">
-                <img src="src/img/beach.jpg" alt="beach" class="d-block" style="width:100%">
+                <img src="src/img/beach.jpg" alt="" class="d-block" style="width:100%">
             </div>
             <div class="carousel-item">
-                <img src="src/img/background.jpg" alt="island" class="d-block" style="width:100%">
+                <img src="src/img/background.jpg" alt="" class="d-block" style="width:100%">
             </div>
         </div>
 
@@ -85,52 +87,63 @@
     </div>
 
 
+
+<!--    About Section-->
     <div class="title" id="index">
         <h3 class="display-6">About Me</h3>
     </div>
-    <div class="section">
-
+    <div class="p-5">
+        <p>What do I write here. I don't know who I'm!</p>
     </div>
 
+
+
+<!--    Skill Section-->
     <div class="title" id="skills">
         <h3 class="display-6">Skills</h3>
     </div>
-        <div class="section container">
-            <div class="row rectangular">
-                <h4 class="display-6">Languages</h4><hr>
-                <div class="col"><img class="icon" src="src/img/java.png" alt="Java"/><h6>Java</h6></div>
-                <div class="col"><img class="icon" src="src/img/python.png" alt="Python"/><h6>Python</h6></div>
-                <div class="col"><img class="icon" src="src/img/html.png" alt="HTML"/><h6>HTML5</h6></div>
-                <div class="col"><img class="icon" src="src/img/css.png" alt="CSS"/><h6>CSS3</h6></div>
-                <div class="col"><img class="icon" src="src/img/javascript.png" alt="JavaScript"/><h6>JavaScript</h6></div>
-                <div class="col"><img class="icon" src="src/img/sql.png" alt="SQL"/><h6>SQL</h6></div>
-            </div>
-
-            <div class="rectangular row">
-                <h4 class="display-6">Database</h4><hr>
-                <div class="col"><img class="icon" src="src/img/mysql.png" alt="MySQL"/><h6>MySQL</h6></div>
-                <div class="col"><img class="icon" src="src/img/postgresql.png" alt="PostgreSQL"/><h6>PostgreSQL</h6></div>
-                <div class="col"><img class="icon" src="src/img/sqlite.png" alt="SQLite"/><h6>SQLite 3</h6></div>
-            </div>
-
-            <div class="row rectangular">
-                <h4 class="display-6">Frameworks</h4><hr>
-                <div class="col"><img class="icon" src="src/img/springboot.png" alt="Spring Boot"/><h6>Spring Boot</h6></div>
-                <div class="col"><img class="icon" src="src/img/flask.png" alt="Flask"/><h6>Flask</h6></div>
-                <div class="col"><img class="icon" src="src/img/javafx.png" alt="JavaFX"/><h6>JavaFX</h6></div>
-                <div class="col"><img class="icon" src="src/img/bootstrap.png" alt="Bootstrap"/><h6>Bootstrap</h6></div>
-            </div>
-
-            <div class="row rectangular">
-                <h4 class="display-6">Tools</h4><hr>
-                <div class="col"><img class="icon" src="src/img/intellij.png" alt="IntelliJ"/><h6>IntelliJ</h6></div>
-                <div class="col"><img class="icon" src="src/img/pycharm.png" alt="PyCharm"/><h6>PyCharm</h6></div>
-                <div class="col"><img class="icon" src="src/img/anb.png" alt="NetBeans"/><h6>NetBeans</h6></div>
-                <div class="col"><img class="icon" src="src/img/vsc.png" alt="vsc"/><h6>Visual Studio Code</h6></div>
+    <div class="p-5 container" >
+        <div class="card my-5 p-5">
+            <h4 class="display-6">Languages</h4><hr>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div><img class="icon" src="src/img/java.png" alt="Java"/><h6>Java</h6></div>
+                <div><img class="icon" src="src/img/python.png" alt="Python"/><h6>Python</h6></div>
+                <div><img class="icon" src="src/img/html.png" alt="HTML"/><h6>HTML5</h6></div>
+                <div><img class="icon" src="src/img/css.png" alt="CSS"/><h6>CSS3</h6></div>
+                <div><img class="icon" src="src/img/javascript.png" alt="JavaScript"/><h6>JavaScript</h6></div>
+                <div><img class="icon" src="src/img/sql.png" alt="SQL"/><h6>SQL</h6></div>
             </div>
         </div>
 
+        <div class="card my-5 p-5">
+            <h4 class="display-6">Database</h4><hr>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div><img class="icon" src="src/img/mysql.png" alt="MySQL"/><h6>MySQL</h6></div>
+                <div><img class="icon" src="src/img/postgresql.png" alt="PostgreSQL"/><h6>PostgreSQL</h6></div>
+                <div><img class="icon" src="src/img/sqlite.png" alt="SQLite"/><h6>SQLite 3</h6></div>
+            </div>
+        </div>
 
+        <div class="card my-5 p-5">
+            <h4 class="display-6">Frameworks</h4><hr>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div><img class="icon" src="src/img/springboot.png" alt="Spring Boot"/><h6>Spring Boot</h6></div>
+                <div><img class="icon" src="src/img/flask.png" alt="Flask"/><h6>Flask</h6></div>
+                <div><img class="icon" src="src/img/javafx.png" alt="JavaFX"/><h6>JavaFX</h6></div>
+                <div><img class="icon" src="src/img/bootstrap.png" alt="Bootstrap"/><h6>Bootstrap</h6></div>
+            </div>
+        </div>
+
+        <div class="card my-5 p-5">
+            <h4 class="display-6">Tools</h4><hr>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div><img class="icon" src="src/img/intellij.png" alt="IntelliJ"/><h6>IntelliJ</h6></div>
+                <div><img class="icon" src="src/img/pycharm.png" alt="PyCharm"/><h6>PyCharm</h6></div>
+                <div><img class="icon" src="src/img/anb.png" alt="NetBeans"/><h6>NetBeans</h6></div>
+                <div><img class="icon" src="src/img/vsc.png" alt="vsc"/><h6>Visual Studio Code</h6></div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -138,15 +151,14 @@
     <div class="title" id="education">
         <h3 class="display-6">Education</h3>
     </div>
-
-    <div class="row section">
-        <div class="rectangular col" style="padding: 50px">
+    <div class="d-md-flex flex-md-row justify-content-center">
+        <div class="card p-5 my-5 mx-4">
             <a class="text" href="https://www.wgu.edu/"><h4>Western Governors University</h4></a>
             <h6>B.Sc. in Computer Science</h6>
             <p>December 2021</p>
         </div>
 
-        <div class="rectangular col" style="padding: 50px">
+        <div class="card p-5 my-5 mx-4">
             <a class="text" href="https://www.hccs.edu/"><h4>Houston Community College</h4></a>
             <h6>A.Sc. in Computer Science </h6>
             <p>December 2019</p>
@@ -159,12 +171,10 @@
     <div class="title" id="projects">
         <h3 class="display-6">Projects</h3>
     </div>
-
-    <div class="section container">
+    <div class="container p-5">
         <div class="row">
-
-<!--        Price Prediction Application-->
-            <div class="card" style="width: 364px">
+    <!--        Price Prediction Application-->
+            <div class="card my-4 mx-auto" style="width: 364px">
                 <video class="card-img-top" width="324" height="240" controls>
                     <source src="src/videos/predict.mp4" type="video/mp4">
                 </video>
@@ -186,8 +196,8 @@
                 </div>
             </div>
 
-<!--        Appointment Management System-->
-            <div class="card" style="width: 364px">
+    <!--        Appointment Management System-->
+            <div class="card my-4 mx-auto" style="width: 364px">
                 <video class="card-img-top" width="324" height="240" controls>
                     <source src="src/videos/appointment.mp4" type="video/mp4">
                 </video>
@@ -206,8 +216,8 @@
                 </div>
             </div>
 
-<!--        Inventory Management System-->
-            <div class="card" style="width: 364px">
+    <!--        Inventory Management System-->
+            <div class="card my-4 mx-auto" style="width: 364px">
                 <video class="card-img-top" width="324" height="240" controls>
                     <source src="src/videos/inventory.mp4" type="video/mp4">
                 </video>
@@ -228,9 +238,8 @@
 
 
         <div class="row">
-
-<!--        Parcel Service-->
-            <div class="card" style="width: 364px">
+    <!--        Parcel Service-->
+            <div class="card my-4 mx-auto" style="width: 364px">
                 <video class="card-img-top" width="324" height="240" controls>
                     <source src="src/videos/delivery.mp4" type="video/mp4">
                 </video>
@@ -246,8 +255,8 @@
                 </div>
             </div>
 
-<!--        Chat Bot Project-->
-            <div class="card" style="width: 364px">
+    <!--        Chat Bot Project-->
+            <div class="card my-4 mx-auto" style="width: 364px">
                 <video class="card-img-top" width="324" height="240" controls>
                     <source src="src/videos/chatbot.mp4" type="video/mp4">
                 </video>
@@ -262,8 +271,8 @@
                 </div>
             </div>
 
-<!--        Disaster Rescue Robot-->
-            <div class="card" style="width: 364px">
+    <!--        Disaster Rescue Robot-->
+            <div class="card my-4 mx-auto" style="width: 364px">
                 <video class="card-img-top" width="324" height="240" controls>
                     <source src="src/videos/rescuebot.mp4" type="video/mp4">
                 </video>
@@ -279,9 +288,8 @@
         </div>
 
         <div class="row">
-
-<!--        React Project-->
-            <div class="card" style="width: 364px">
+    <!--        React Project-->
+            <div class="card my-4 mx-auto" style="width: 364px">
                 <video class="card-img-top" width="324" height="240" controls>
                     <source src="" type="video/mp4">
                 </video>
@@ -299,8 +307,8 @@
                 </div>
             </div>
 
-<!--        Spring Boot Project-->
-            <div class="card" style="width: 364px">
+    <!--        Spring Boot Project-->
+            <div class="card my-4 mx-auto" style="width: 364px">
                 <video class="card-img-top" width="324" height="240" controls>
                     <source src="" type="video/mp4">
                 </video>
@@ -319,30 +327,29 @@
                 </div>
             </div>
 
-<!--        Coming Soon-->
-            <div class="card" style="width: 364px">
-<!--                <video class="card-img-top" width="324" height="240" controls>-->
-<!--                    <source src="" type="video/mp4">-->
-<!--                </video>-->
-<!--                <div class="card-body">-->
-<!--                    <h6 class="card-title"></h6>-->
-<!--                    <p class="card-text"></p>-->
-<!--                    <h6 class="card-title">Technologies</h6>-->
-<!--                    <ul>-->
-<!--                        <li></li>-->
-<!--                        <li></li>-->
-<!--                        <li></li>-->
-<!--                        <li></li>-->
-<!--                        <li></li>-->
-<!--                        <li></li>-->
-<!--                    </ul>-->
-<!--                    <i class="fab fa-github"></i>-->
-<!--                    <i class="fas fa-external-link-alt"></i>-->
-<!--                </div>-->
+    <!--        Coming Soon-->
+            <div class="card my-4 mx-auto" style="width: 364px">
+    <!--                <video class="card-img-top" width="324" height="240" controls>-->
+    <!--                    <source src="" type="video/mp4">-->
+    <!--                </video>-->
+    <!--                <div class="card-body">-->
+    <!--                    <h6 class="card-title"></h6>-->
+    <!--                    <p class="card-text"></p>-->
+    <!--                    <h6 class="card-title">Technologies</h6>-->
+    <!--                    <ul>-->
+    <!--                        <li></li>-->
+    <!--                        <li></li>-->
+    <!--                        <li></li>-->
+    <!--                        <li></li>-->
+    <!--                        <li></li>-->
+    <!--                        <li></li>-->
+    <!--                    </ul>-->
+    <!--                    <i class="fab fa-github"></i>-->
+    <!--                    <i class="fas fa-external-link-alt"></i>-->
+    <!--                </div>-->
             </div>
         </div>
     </div>
-
 
 
 
@@ -350,8 +357,7 @@
     <div class="title" id="contact">
         <h3 class="display-6">Contact</h3>
     </div>
-
-    <div class="section">
+    <div class="p-5">
         <div class="d-flex justify-content-center">
             <div>
                 <a class="link" href="mailto:zawlurnthan@gmail.com">
@@ -381,6 +387,9 @@
         </div>
     </div>
 
+
+
+<!--    Footer-->
     <div class="footer">
         Zaw Than &copy; <script>document.write( new Date().getFullYear() );</script>.
     </div>
