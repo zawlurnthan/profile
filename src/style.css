@@ -2,7 +2,7 @@ html body {
     height: 100%;
     margin: 0;
     box-sizing: border-box;
-    background: #dddddd;
+    background: #dddddd;     /*darkolivegreen gainsboro aliceblue  #dddddd*/
 }
 
 .title {
@@ -10,6 +10,12 @@ html body {
     text-align: center;
     padding: 20px;
     background-color: #008073;
+}
+
+.about {
+    text-indent: 50px;
+    font-size: 25px;
+    color: white;
 }
 
 .text {
@@ -35,7 +41,6 @@ html body {
 
 .link {
     text-decoration: none;
-    color: #008073;
     text-align: center;
 }
 
